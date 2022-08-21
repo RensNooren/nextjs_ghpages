@@ -1,0 +1,14 @@
+{
+  "name": "Bravo",
+  "color": "pink",
+  "keywords": {
+    "first": {
+      "name": "Prune",
+      "nickname": "Microwave"
+    },
+    "second": {
+      "name": "Kiwi",
+      "nickname": "Spoon"
+    }
+  }
+}
