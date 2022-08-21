@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alpha",
+    "color": "green",
+    "keywords": {
+      "first": "apple",
+      "second": "pen"
+    }
+  },
+  {
+    "name": "Bravo",
+    "color": "blue",
+    "keywords": {
+      "first": "banana",
+      "second": "book"
+    }
+  },
+  {
+    "name": "Charlie",
+    "color": "red",
+    "keywords": {
+      "first": "cucumber",
+      "second": "keyboard"
+    }
+  },
+  {
+    "name": "Delta",
+    "color": "pink",
+    "keywords": {
+      "first": "onion",
+      "second": "blanket"
+    }
+  },
+  {
+    "name": "Echo",
+    "color": "yellow",
+    "keywords": {
+      "first": "corn",
+      "second": "lamp"
+    }
+  }
+]
