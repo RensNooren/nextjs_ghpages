@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Items({ items }) {
   return (
-    <div>
-      <h1>Items</h1>
+    <div className='container mx-auto'>
+      <h1 className='text-3xl font-bold'>Items</h1>
       <p>These are items... Just items, nothing special:</p>
       <ul>
         {items.map(item => {
