@@ -1,0 +1,14 @@
+{
+  "name": "Bravo",
+  "color": "red",
+  "keywords": {
+    "first": {
+      "name": "Cucumber",
+      "nickname": "Kettle"
+    },
+    "second": {
+      "name": "Apple",
+      "nickname": "Stove"
+    }
+  }
+}

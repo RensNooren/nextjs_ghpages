@@ -9,9 +9,9 @@ export default function Items({ items }) {
       <ul>
         {items.map(item => {
           return (
-            <li key={item.name}>
-              <Link href={`/items/${item.name}`}>
-                <p>{ item.name }</p>
+            <li key={item}>
+              <Link href={`/items/${item}`}>
+                <p>{ item }</p>
               </Link>
             </li>
           )
@@ -23,11 +23,9 @@ export default function Items({ items }) {
 
 // Get JSON data
 import fsPromises from 'fs/promises';
-import path from 'path'
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'public/testdata.json');
-  const jsonData = await fsPromises.readFile(filePath);
-  const items = JSON.parse(jsonData);
+  const overview = await fsPromises.readFile('public/overview.txt', 'utf-8');
+  const items = overview.split(/\r?\n/);
   return {
     props: {
       items

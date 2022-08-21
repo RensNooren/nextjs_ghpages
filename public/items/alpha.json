@@ -1,0 +1,14 @@
+{
+  "name": "Alpha",
+  "color": "blue",
+  "keywords": {
+    "first": {
+      "name": "Banana",
+      "nickname": "Spatula"
+    },
+    "second": {
+      "name": "Corn",
+      "nickname": "Fridge"
+    }
+  }
+}
